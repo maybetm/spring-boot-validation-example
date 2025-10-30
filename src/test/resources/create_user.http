@@ -1,0 +1,19 @@
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "id": "test-id",
+  "name": "Test User",
+  "tags": [
+    {
+      "key": "city",
+      "value": "Belgrade"
+    },
+    {
+      "key": "test key",
+      "value": "test value"
+    }
+  ]
+}
+
+###
